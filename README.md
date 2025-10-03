@@ -10,7 +10,6 @@ browse restaurants → view menu → add to cart → checkout (address) → orde
   <img src="https://github.com/user-attachments/assets/39efe9c0-30ea-4478-991a-55ecc9ce2d4d" width="300" style="margin-left: 20px;" />
 </p>
 
-> Add at least one screenshot under `screenshots/` directory.
 
 ## Features implemented (assignment checklist)
 - BLoC architecture for state management (restaurants, cart, orders).
