@@ -1,4 +1,4 @@
-# Nestafar — Food ordering workflow (Flutter)
+# Nesta — Food ordering workflow
 
 A small Flutter app that demonstrates a single realistic food-ordering workflow:
 browse restaurants → view menu → add to cart → checkout (address) → order confirmation → order history.
