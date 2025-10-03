@@ -1,0 +1,732 @@
+[
+  {
+    "id": "r1",
+    "name": "Spice Haven",
+    "cuisine": ["Indian", "Chinese"],
+    "rating": 4.5,
+    "deliveryTime": "30-40 min",
+    "deliveryFee": 20,
+    "priceLevel": 2,
+    "image": "assets/images/restaurant/spice_restaurant.jpg",
+    "vegType": "both",
+    "shortDescription": "A cozy spot serving homestyle Indian & Chinese favourites.",
+    "menu": [
+      {
+        "id": "r1_i1",
+        "name": "Butter Chicken",
+        "description": "Creamy tomato gravy with tender chicken pieces.",
+        "price": 220,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/butter_chicken.jpg",
+        "available": true
+      },
+      {
+        "id": "r1_i2",
+        "name": "Vegetable Manchurian",
+        "description": "Crispy veg balls tossed in tangy Indo-Chinese sauce.",
+        "price": 160,
+        "vegType": "veg",
+        "image": "assets/images/menu/veg_manchurian.jpg",
+        "available": true
+      },
+      {
+        "id": "r1_i3",
+        "name": "Garlic Naan",
+        "description": "Soft naan topped with butter and garlic.",
+        "price": 40,
+        "vegType": "veg",
+        "image": "assets/images/menu/garlic_naan.jpg",
+        "available": true
+      },
+      {
+        "id": "r1_i4",
+        "name": "Chicken Fried Rice",
+        "description": "Stir fried rice with chicken, egg, and veggies.",
+        "price": 180,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/chicken_fried_rice.jpg",
+        "available": true
+      },
+      {
+        "id": "r1_i5",
+        "name": "Paneer Chilli",
+        "description": "Cottage cheese cubes tossed in spicy chilli sauce.",
+        "price": 200,
+        "vegType": "veg",
+        "image": "assets/images/menu/paneer_chilli.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r2",
+    "name": "Green Bowl",
+    "cuisine": ["Healthy", "Salads"],
+    "rating": 4.2,
+    "deliveryTime": "20-30 min",
+    "deliveryFee": 15,
+    "priceLevel": 1,
+    "image": "assets/images/restaurant/green_restaurant.jpg",
+    "vegType": "veg",
+    "shortDescription": "Fresh bowls and salads made from seasonal produce.",
+    "menu": [
+      {
+        "id": "r2_i1",
+        "name": "Quinoa Power Bowl",
+        "description": "Quinoa, roasted veggies, avocado & tahini dressing.",
+        "price": 220,
+        "vegType": "veg",
+        "image": "assets/images/menu/quinoa_bowl.jpg",
+        "available": true
+      },
+      {
+        "id": "r2_i2",
+        "name": "Caesar Salad (Veg)",
+        "description": "Crisp lettuce, parmesan, croutons with house dressing.",
+        "price": 150,
+        "vegType": "veg",
+        "image": "assets/images/menu/caesar_salad.jpg",
+        "available": true
+      },
+      {
+        "id": "r2_i3",
+        "name": "Green Smoothie",
+        "description": "Spinach, apple, banana, and almond milk.",
+        "price": 120,
+        "vegType": "veg",
+        "image": "assets/images/menu/green_smoothie.jpg",
+        "available": true
+      },
+      {
+        "id": "r2_i4",
+        "name": "Avocado Toast",
+        "description": "Sourdough with smashed avocado & seeds.",
+        "price": 130,
+        "vegType": "veg",
+        "image": "assets/images/menu/avocado_toast.jpg",
+        "available": true
+      },
+      {
+        "id": "r2_i5",
+        "name": "Fruit Bowl",
+        "description": "Seasonal fresh fruits with honey drizzle.",
+        "price": 110,
+        "vegType": "veg",
+        "image": "assets/images/menu/fruit_bowl.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r3",
+    "name": "Burger Town",
+    "cuisine": ["Fast Food"],
+    "rating": 4.0,
+    "deliveryTime": "25-35 min",
+    "deliveryFee": 10,
+    "priceLevel": 1,
+    "image": "assets/images/restaurant/burger_restaurant.jpg",
+    "vegType": "nonveg",
+    "shortDescription": "Juicy burgers, loaded fries and quick bites.",
+    "menu": [
+      {
+        "id": "r3_i1",
+        "name": "Classic Beef Burger",
+        "description": "Beef patty, lettuce, tomato, cheese & special sauce.",
+        "price": 199,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/beef_burger.jpg",
+        "available": true
+      },
+      {
+        "id": "r3_i2",
+        "name": "Crispy Chicken Burger",
+        "description": "Buttermilk fried chicken with spicy mayo.",
+        "price": 189,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/chicken_burger.jpg",
+        "available": true
+      },
+      {
+        "id": "r3_i3",
+        "name": "Bacon Cheese Fries",
+        "description": "Loaded fries with bacon & cheese sauce.",
+        "price": 149,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/bacon_fries.jpg",
+        "available": true
+      },
+      {
+        "id": "r3_i4",
+        "name": "BBQ Chicken Wings",
+        "description": "Smoky BBQ wings with dip.",
+        "price": 179,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/bbq_wings.jpg",
+        "available": true
+      },
+      {
+        "id": "r3_i5",
+        "name": "Fish Burger",
+        "description": "Crispy fried fish fillet with tartar sauce.",
+        "price": 169,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/fish_burger.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r4",
+    "name": "Sushi House",
+    "cuisine": ["Japanese"],
+    "rating": 4.7,
+    "deliveryTime": "35-45 min",
+    "deliveryFee": 25,
+    "priceLevel": 3,
+    "image": "assets/images/restaurant/sushi_restaurant.jpg",
+    "vegType": "nonveg",
+    "shortDescription": "Fresh sushi rolls and sashimi prepared by expert chefs.",
+    "menu": [
+      {
+        "id": "r4_i1",
+        "name": "Salmon Nigiri (2 pcs)",
+        "description": "Fresh salmon on seasoned rice.",
+        "price": 320,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/salmon_nigiri.jpg",
+        "available": true
+      },
+      {
+        "id": "r4_i2",
+        "name": "Tuna Sashimi",
+        "description": "Thinly sliced fresh tuna.",
+        "price": 350,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/tuna_sashimi.jpg",
+        "available": true
+      },
+      {
+        "id": "r4_i3",
+        "name": "Shrimp Tempura Roll",
+        "description": "Crispy shrimp tempura sushi roll.",
+        "price": 280,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/tempura_roll.jpg",
+        "available": true
+      },
+      {
+        "id": "r4_i4",
+        "name": "Dragon Roll",
+        "description": "Eel, avocado & cucumber roll.",
+        "price": 300,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/dragon_roll.jpg",
+        "available": true
+      },
+      {
+        "id": "r4_i5",
+        "name": "Spicy Tuna Roll",
+        "description": "Tuna with spicy mayo & cucumber.",
+        "price": 260,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/spicy_tuna_roll.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r5",
+    "name": "Pizza Palace",
+    "cuisine": ["Italian"],
+    "rating": 4.3,
+    "deliveryTime": "20-30 min",
+    "deliveryFee": 18,
+    "priceLevel": 2,
+    "image": "assets/images/restaurant/pizza_restaurant.jpg",
+    "vegType": "both",
+    "shortDescription": "Stone-baked pizzas with classic and innovative toppings.",
+    "menu": [
+      {
+        "id": "r5_i1",
+        "name": "Margherita",
+        "description": "Tomato, mozzarella, basil — classic simplicity.",
+        "price": 299,
+        "vegType": "veg",
+        "image": "assets/images/menu/margherita.jpg",
+        "available": true
+      },
+      {
+        "id": "r5_i2",
+        "name": "Pepperoni Feast",
+        "description": "Loaded with pepperoni and extra cheese.",
+        "price": 349,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/pepperoni_pizza.jpg",
+        "available": true
+      },
+      {
+        "id": "r5_i3",
+        "name": "Vegetarian Supreme",
+        "description": "Bell peppers, olives, mushrooms & onions.",
+        "price": 329,
+        "vegType": "veg",
+        "image": "assets/images/menu/veg_supreme.jpg",
+        "available": true
+      },
+      {
+        "id": "r5_i4",
+        "name": "BBQ Chicken Pizza",
+        "description": "Smoky BBQ sauce, chicken & red onion.",
+        "price": 369,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/bbq_chicken_pizza.jpg",
+        "available": true
+      },
+      {
+        "id": "r5_i5",
+        "name": "Garlic Breadsticks",
+        "description": "Soft breadsticks brushed with garlic butter.",
+        "price": 99,
+        "vegType": "veg",
+        "image": "assets/images/menu/garlic_sticks.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r6",
+    "name": "Taco Fiesta",
+    "cuisine": ["Mexican"],
+    "rating": 4.1,
+    "deliveryTime": "25-35 min",
+    "deliveryFee": 12,
+    "priceLevel": 1,
+    "image": "assets/images/restaurant/tacos_restaurant.jpg",
+    "vegType": "nonveg",
+    "shortDescription": "Tacos, quesadillas and salsas with bold flavours.",
+    "menu": [
+      {
+        "id": "r6_i1",
+        "name": "Chicken Tacos (3 pcs)",
+        "description": "Soft tacos with spicy grilled chicken.",
+        "price": 199,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/chicken_tacos.jpg",
+        "available": true
+      },
+      {
+        "id": "r6_i2",
+        "name": "Beef Quesadilla",
+        "description": "Grilled tortilla with seasoned beef & cheese.",
+        "price": 189,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/beef_quesadilla.jpg",
+        "available": true
+      },
+      {
+        "id": "r6_i3",
+        "name": "Fish Tacos (3 pcs)",
+        "description": "Crispy fish with slaw and tangy sauce.",
+        "price": 219,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/fish_tacos.jpg",
+        "available": true
+      },
+      {
+        "id": "r6_i4",
+        "name": "Loaded Nachos",
+        "description": "Tortilla chips with cheese, jalapeño & pulled chicken.",
+        "price": 179,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/loaded_nachos.jpg",
+        "available": true
+      },
+      {
+        "id": "r6_i5",
+        "name": "Churros",
+        "description": "Cinnamon sugar fried dough (sweet).",
+        "price": 89,
+        "vegType": "veg",
+        "image": "assets/images/menu/churros.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r7",
+    "name": "The Curry Pot",
+    "cuisine": ["Indian"],
+    "rating": 4.6,
+    "deliveryTime": "30-40 min",
+    "deliveryFee": 20,
+    "priceLevel": 2,
+    "image": "assets/images/restaurant/curry_restaurant.jpg",
+    "vegType": "both",
+    "shortDescription": "Slow-cooked curries and homestyle breads.",
+    "menu": [
+      {
+        "id": "r7_i1",
+        "name": "Rogan Josh",
+        "description": "Fragrant lamb curry in rich gravy.",
+        "price": 280,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/rogan_josh.jpg",
+        "available": true
+      },
+      {
+        "id": "r7_i2",
+        "name": "Palak Paneer",
+        "description": "Creamy spinach curry with cubes of paneer.",
+        "price": 210,
+        "vegType": "veg",
+        "image": "assets/images/menu/palak_paneer.jpg",
+        "available": true
+      },
+      {
+        "id": "r7_i3",
+        "name": "Tandoori Roti",
+        "description": "Whole wheat flatbread from the tandoor.",
+        "price": 25,
+        "vegType": "veg",
+        "image": "assets/images/menu/tandoori_roti.jpg",
+        "available": true
+      },
+      {
+        "id": "r7_i4",
+        "name": "Chicken Tikka Masala",
+        "description": "Boneless chicken in rich tomato-cream sauce.",
+        "price": 260,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/chicken_tikka.jpg",
+        "available": true
+      },
+      {
+        "id": "r7_i5",
+        "name": "Dal Makhani",
+        "description": "Slow-cooked black lentils with butter.",
+        "price": 160,
+        "vegType": "veg",
+        "image": "assets/images/menu/dal_makhani.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r8",
+    "name": "Dragon Wok",
+    "cuisine": ["Chinese", "Thai"],
+    "rating": 4.4,
+    "deliveryTime": "25-35 min",
+    "deliveryFee": 15,
+    "priceLevel": 2,
+    "image": "assets/images/restaurant/dragon_restaurant.jpg",
+    "vegType": "both",
+    "shortDescription": "Wok-tossed noodles and stir fries with bold sauces.",
+    "menu": [
+      {
+        "id": "r8_i1",
+        "name": "Chili Garlic Noodles",
+        "description": "Wok-fried noodles with chili garlic sauce.",
+        "price": 180,
+        "vegType": "veg",
+        "image": "assets/images/menu/chili_noodles.jpg",
+        "available": true
+      },
+      {
+        "id": "r8_i2",
+        "name": "Honey Chilli Chicken",
+        "description": "Crispy chicken tossed in honey chilli glaze.",
+        "price": 240,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/honey_chilli_chicken.jpg",
+        "available": true
+      },
+      {
+        "id": "r8_i3",
+        "name": "Veg Spring Rolls (4 pcs)",
+        "description": "Crispy rolls with veg filling.",
+        "price": 120,
+        "vegType": "veg",
+        "image": "assets/images/menu/spring_rolls.jpg",
+        "available": true
+      },
+      {
+        "id": "r8_i4",
+        "name": "Szechuan Beef",
+        "description": "Spicy beef strips with Szechuan pepper sauce.",
+        "price": 260,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/szechuan_beef.jpg",
+        "available": true
+      },
+      {
+        "id": "r8_i5",
+        "name": "Veg Hakka Noodles",
+        "description": "Stir fried noodles with mixed vegetables.",
+        "price": 160,
+        "vegType": "veg",
+        "image": "assets/images/menu/hakka_noodles.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r9",
+    "name": "Steak & Grill",
+    "cuisine": ["American", "Grill"],
+    "rating": 4.5,
+    "deliveryTime": "40-50 min",
+    "deliveryFee": 30,
+    "priceLevel": 3,
+    "image": "assets/images/restaurant/grill_restaurant.jpg",
+    "vegType": "nonveg",
+    "shortDescription": "Premium steaks and grilled platters.",
+    "menu": [
+      {
+        "id": "r9_i1",
+        "name": "Ribeye Steak",
+        "description": "Seasoned ribeye with choice of sides.",
+        "price": 650,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/ribeye.jpg",
+        "available": true
+      },
+      {
+        "id": "r9_i2",
+        "name": "Grilled Chicken Breast",
+        "description": "Herb-marinated chicken with veggies.",
+        "price": 420,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/grilled_chicken.jpg",
+        "available": true
+      },
+      {
+        "id": "r9_i3",
+        "name": "Loaded Fries",
+        "description": "Fries topped with cheese and bacon bits.",
+        "price": 149,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/loaded_fries.jpg",
+        "available": true
+      },
+      {
+        "id": "r9_i4",
+        "name": "Grilled Veg Platter",
+        "description": "Seasonal vegetables char-grilled with herbs.",
+        "price": 299,
+        "vegType": "veg",
+        "image": "assets/images/menu/grilled_veg.jpg",
+        "available": true
+      },
+      {
+        "id": "r9_i5",
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked ribs with sticky BBQ sauce.",
+        "price": 599,
+        "vegType": "nonveg",
+        "image": "assets/images/menu/bbq_ribs.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r10",
+    "name": "Saga Corner",
+    "cuisine": ["Middle Eastern"],
+    "rating": 4.2,
+    "deliveryTime": "20-25 min",
+    "deliveryFee": 10,
+    "priceLevel": 1,
+    "image": "assets/images/restaurant/saga_restaurant.jpg",
+    "vegType": "veg",
+    "shortDescription": "Flavourful Middle Eastern wraps and platters.",
+    "menu": [
+      {
+        "id": "r10_i1",
+        "name": "Falafel Wrap",
+        "description": "Crispy falafel with tahini and salad.",
+        "price": 140,
+        "vegType": "veg",
+        "image": "assets/images/menu/falafel_wrap.jpg",
+        "available": true
+      },
+      {
+        "id": "r10_i2",
+        "name": "Hummus Plate",
+        "description": "Creamy hummus with warm pita and olives.",
+        "price": 160,
+        "vegType": "veg",
+        "image": "assets/images/menu/hummus_plate.jpg",
+        "available": true
+      },
+      {
+        "id": "r10_i3",
+        "name": "Baklava (2 pcs)",
+        "description": "Sweet filo pastry with nuts and syrup.",
+        "price": 120,
+        "vegType": "veg",
+        "image": "assets/images/menu/baklava.jpg",
+        "available": true
+      },
+      {
+        "id": "r10_i4",
+        "name": "Tabbouleh Salad",
+        "description": "Parsley & bulgur salad with lemon dressing.",
+        "price": 130,
+        "vegType": "veg",
+        "image": "assets/images/menu/tabbouleh.jpg",
+        "available": true
+      },
+      {
+        "id": "r10_i5",
+        "name": "Stuffed Pita",
+        "description": "Warm pita stuffed with grilled veggies & hummus.",
+        "price": 150,
+        "vegType": "veg",
+        "image": "assets/images/menu/stuffed_pita.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r11",
+    "name": "Vegan Delight",
+    "cuisine": ["Vegan", "Healthy"],
+    "rating": 4.6,
+    "deliveryTime": "25-35 min",
+    "deliveryFee": 12,
+    "priceLevel": 2,
+    "image": "assets/images/restaurant/vegan_restaurant.jpg",
+    "vegType": "veg",
+    "shortDescription": "100% plant-based meals that taste amazing.",
+    "menu": [
+      {
+        "id": "r11_i1",
+        "name": "Vegan Buddha Bowl",
+        "description": "Roasted veg, grains, seeds & tahini.",
+        "price": 240,
+        "vegType": "veg",
+        "image": "assets/images/menu/buddha_bowl.jpg",
+        "available": true
+      },
+      {
+        "id": "r11_i2",
+        "name": "Tofu Stir Fry",
+        "description": "Tofu with seasonal veg in soy glaze.",
+        "price": 200,
+        "vegType": "veg",
+        "image": "assets/images/menu/tofu_stirfry.jpg",
+        "available": true
+      },
+      {
+        "id": "r11_i3",
+        "name": "Coconut Pancakes",
+        "description": "Fluffy pancakes with coconut & maple syrup.",
+        "price": 150,
+        "vegType": "veg",
+        "image": "assets/images/menu/coconut_pancakes.jpg",
+        "available": true
+      },
+      {
+        "id": "r11_i4",
+        "name": "Vegan Wrap",
+        "description": "Grilled veggies, hummus & greens in a wrap.",
+        "price": 170,
+        "vegType": "veg",
+        "image": "assets/images/menu/vegan_wrap.jpg",
+        "available": true
+      },
+      {
+        "id": "r11_i5",
+        "name": "Chia Pudding",
+        "description": "Coconut chia pudding with berries.",
+        "price": 129,
+        "vegType": "veg",
+        "image": "assets/images/menu/chia_pudding.jpg",
+        "available": true
+      }
+    ]
+  },
+
+
+  {
+    "id": "r12",
+    "name": "Dessert Hub",
+    "cuisine": ["Desserts", "Bakery"],
+    "rating": 4.8,
+    "deliveryTime": "15-25 min",
+    "deliveryFee": 8,
+    "priceLevel": 2,
+    "image": "assets/images/restaurant/dessert_restaurant.jpg",
+    "vegType": "veg",
+    "shortDescription": "Sweet treats and freshly baked desserts.",
+    "menu": [
+      {
+        "id": "r12_i1",
+        "name": "Chocolate Lava Cake",
+        "description": "Warm cake with a molten chocolate centre.",
+        "price": 180,
+        "vegType": "veg",
+        "image": "assets/images/menu/lava_cake.jpg",
+        "available": true
+      },
+      {
+        "id": "r12_i2",
+        "name": "Strawberry Cheesecake",
+        "description": "Creamy cheesecake with fresh strawberry compote.",
+        "price": 220,
+        "vegType": "veg",
+        "image": "assets/images/menu/strawberry_cheesecake.jpg",
+        "available": true
+      },
+      {
+        "id": "r12_i3",
+        "name": "Assorted Cookies (6 pcs)",
+        "description": "Freshly baked cookie selection.",
+        "price": 120,
+        "vegType": "veg",
+        "image": "assets/images/menu/cookies.jpg",
+        "available": true
+      },
+      {
+        "id": "r12_i4",
+        "name": "Blueberry Muffin",
+        "description": "Soft muffin loaded with blueberries.",
+        "price": 99,
+        "vegType": "veg",
+        "image": "assets/images/menu/blueberry_muffin.jpg",
+        "available": true
+      },
+      {
+        "id": "r12_i5",
+        "name": "Creme Brulee",
+        "description": "Rich custard topped with caramelized sugar.",
+        "price": 160,
+        "vegType": "veg",
+        "image": "assets/images/menu/creme_brulee.jpg",
+        "available": true
+      }
+    ]
+  }
+]
