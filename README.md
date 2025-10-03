@@ -11,12 +11,11 @@ browse restaurants → view menu → add to cart → checkout (address) → orde
 </p>
 
 
-## Features implemented (assignment checklist)
+## Features implemented
 - BLoC architecture for state management (restaurants, cart, orders).
 - Realistic ordering workflow.
 - Error handling for persistence, empty cart, invalid address etc.
 - Clean code structure following SOLID where services/repositories and UI are separated.
-- Unit tests for BLoC and storage layers (run with `flutter test`).
 - Theming and UI polish.
 
 ## Getting started
