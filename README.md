@@ -1,16 +1,32 @@
-# nestafar
+# Nestafar — Food ordering workflow (Flutter)
 
-A new Flutter project.
+A small Flutter app that demonstrates a single realistic food-ordering workflow:
+browse restaurants → view menu → add to cart → checkout (address) → order confirmation → order history.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![Restaurants](/screenshots/restaurants.png)
+![Cart](/screenshots/cart.png)
+![Order Confirmation](/screenshots/confirmation.png)
 
-A few resources to get you started if this is your first Flutter project:
+> Add at least one screenshot under `screenshots/` directory.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features implemented (assignment checklist)
+- BLoC architecture for state management (restaurants, cart, orders).
+- Realistic ordering workflow.
+- Error handling for persistence, empty cart, invalid address etc.
+- Clean code structure following SOLID where services/repositories and UI are separated.
+- Unit tests for BLoC and storage layers (run with `flutter test`).
+- Theming and UI polish.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting started
+
+Prerequisites:
+- Flutter SDK (>= 3.0)
+- Android Studio / Xcode / VS Code
+
+Run the app:
+
+```bash
+flutter pub get
+flutter run    # or choose an emulator/device
