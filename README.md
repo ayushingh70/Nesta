@@ -5,9 +5,10 @@ browse restaurants → view menu → add to cart → checkout (address) → orde
 
 ## Screenshots
 
-![Restaurants](/screenshots/restaurants.png)
-![Cart](/screenshots/cart.png)
-![Order Confirmation](/screenshots/confirmation.png)
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/b84c7124-2f37-4213-bf2a-f61f5f0e2d71" width="300" />
+  <img src="https://github.com/user-attachments/assets/39efe9c0-30ea-4478-991a-55ecc9ce2d4d" width="300" style="margin-left: 20px;" />
+</p>
 
 > Add at least one screenshot under `screenshots/` directory.
 
